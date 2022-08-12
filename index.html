@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Register form</legend>
+                <div>
+                    <div class="first">
+                        <label for="email">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Name"
+                        />
+                    </div>
+                    <div class="second">
+                        <label for="surname">Surename</label>
+                        <input
+                            type="text"
+                            id="surname"
+                            name="surname"
+                            placeholder="Surname"
+                        />
+                    </div>
+                    <div class="third">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <div class="fourth">
+                        <label for="gender">Gender</label>
+                        <div>
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="male" />
+                            <label for="male">Female</label>
+                            <input type="radio" id="female" name="female" />
+                        </div>
+                    </div>
+                    <div class="fifth">
+                        <label for="picture">Picture</label>
+
+                        <input type="file" id="picture" name="picture" />
+                    </div>
+                    <div class="sixth">
+                        <label for="country">Country</label>
+
+                        <select id="country">
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </div>
+                    <div class="seventh">
+                        <label for="languages">Preferred languages</label>
+
+                        <div class="program-lang">
+                            <select multiple="multiple" id="languages">
+                                <option>HTML</option>
+                                <option>CSS</option>
+                                <option>JS</option>
+                                <option>React</option>
+                            </select>
+
+                            <span for="languages"
+                                >(To choose more than one use cmd key)</span
+                            >
+                        </div>
+                    </div>
+                    <div class="eighth">
+                        <label for="activity">Field of activity</label>
+
+                        <div>
+                            <input
+                                class="option"
+                                type="checkbox"
+                                id="it"
+                                name="it"
+                            />
+                            <label class="option" for="it">IT</label>
+                            <input
+                                class="option"
+                                type="checkbox"
+                                id="design"
+                                name="design"
+                            />
+                            <label class="option" for="design">Design</label>
+                            <input
+                                class="option"
+                                type="checkbox"
+                                id="other"
+                                name="other"
+                            />
+                            <label class="option" for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <input
+                            type="submit"
+                            name="submit"
+                            id="submit"
+                            value="Submit"
+                        />
+                        <input
+                            type="reset"
+                            name="cancel"
+                            id="cancel"
+                            value="Cancel"
+                        />
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

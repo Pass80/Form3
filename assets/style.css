@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 50%;
+    margin: 10rem auto;
+}
+
+fieldset {
+    padding: 1.5rem;
+}
+
+label,
+input {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
+input {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 0.5em;
+}
+
+select {
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth {
+    width: 80%;
+    display: flex;
+}
+
+.option {
+    display: inline;
+    width: 10%;
+}
+
+.checkbox {
+    width: 60%;
+}
+
+.buttons input {
+    width: 10%;
+}
+
+.program-lang {
+    width: 60%;
+}
+
+.program-lang span {
+    display: inline;
+    width: 100%;
+}
+
+.fourth div {
+    width: 35%;
+}
+
+.fourth div input,
+.eighth div label {
+    /* display: inline; */
+    width: auto;
+    margin: 0;
+}
+
+.eighth div {
+    width: 30%;
+}
